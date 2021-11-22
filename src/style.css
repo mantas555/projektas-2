@@ -1,0 +1,156 @@
+body {
+    background-color: #767a7a;
+}
+.container {
+    width: 80%;
+    margin: auto;
+
+}
+header {
+    background-color: #35424a;
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+header a:link {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header a:visited {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header ul {
+    margin: 7px;
+    padding:7px;
+}
+header ul li {
+    float:left;
+    display:inline;
+    padding: 0px 20px;
+}
+#branding {
+    float: left;
+}
+#branding h1 {
+    float: right;
+    margin-top:4px;
+
+}
+header nav {
+    float:right;
+    margin-top: 10 px;
+}
+.name {
+    color: #e8491d;
+}
+header a:hover {
+    font-weight: bold;
+    color: #e8491d;
+}
+.current {
+    font-weight: bold;
+
+}
+#oneslide {
+    min-height: 400px;
+    background: url("salad.jpg");
+    background-size: cover;
+    text-align: center;
+    background-color: rgb(194, 190, 190);
+    color: white;
+    text-shadow: 5px 5px 15px grey;
+}
+#oneslide h1 {
+    padding-top: 100px;
+    font-size: 55px;
+    margin-top:0;
+}
+#oneslide p {
+    font-size: 22px;
+}
+#newsletter {
+    padding: 15px;
+    background-color: #e8491d;
+    color: white;
+    overflow: auto;
+}
+#newsletter button {
+    border: 3px red solid;
+    color: white;
+    background-color: #e8491d;;
+}
+
+#newsletter button:hover {
+    border: 3px red solid;
+    color: white;
+    background-color: #e8491d;
+    box-shadow: 5px 5px 5px red;
+}
+#newsletter h2 {
+    float: left;
+
+}
+#newsletter form {
+    float:right;
+    margin-top: 15px;
+}
+#boxes {
+    margin-top: 20px;
+    text-align: center;
+    overflow: auto;
+}
+#boxes i {
+    font-size:30px;
+    background-color:#e8491d;
+    color:white;
+    padding:40px;
+    border-radius: 50%;
+}
+#boxes i:hover {
+    box-shadow: 10px 10px 10px grey
+}
+.box {
+    float:right;
+    width:30%;
+    padding: 20px;
+}
+footer {
+    text-align: center;
+    padding:20px;
+    margin-top:20px;
+    color: white;
+    background-color: #141414;;
+}
+@media only screen and (max-width: 958px) {
+    .container {
+      display: inline-block;
+      padding: 5px 0;
+      text-align: center;
+      width: auto;
+    }
+    .box {
+      width: 90%;
+    }
+    .virsus h1 {
+       text-align: center;
+       width: auto;
+    }
+    .branding {
+        text-align: center;
+        width: auto;
+    }
+.meniu {
+ text-align: center;
+ width: auto;
+ float: left;
+}
+    }
+    .prenumerata {
+        text-align: center;
+    }
